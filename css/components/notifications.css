@@ -1,0 +1,46 @@
+.notification-blue {
+    background: rgba(40, 73, 157, 0.09);
+    border-radius: 4px;
+    margin-bottom: 12px;
+    
+}
+
+.notification-blue p::before {
+    content: url("../../img/blue.svg");
+    margin: 0 8px 0 10px;
+}
+
+.notification-green {
+    background: #E9F8EB;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+.notification-green p::before {
+    content: url("../../img/green.svg");
+    margin: 0 8px 0 10px;
+}
+
+.notification-yellow {
+    vertical-align: middle;
+    background: #FFF8E0;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+.notification-yellow p::before {
+    content: url("../../img/yellow.svg");
+    vertical-align: middle;
+    margin: 0 8px 0 10px;
+}
+
+.notification-red {
+    background: #FDEAE4;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+.notification-red p::before {
+    content: url("../../img/red.svg");
+    margin: 0 8px 0 10px;
+}
