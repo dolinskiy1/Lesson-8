@@ -1,46 +1,80 @@
 .notification-blue {
-    background: rgba(40, 73, 157, 0.09);
+    position: relative;
+    width: 298px;
+    padding: 10px;
+    padding-left: 34px;
+    background-color: rgba(40, 73, 157, 0.09);
     border-radius: 4px;
     margin-bottom: 12px;
     
 }
 
-.notification-blue p::before {
+.notification-blue::before {
     content: url("../../img/blue.svg");
-    margin: 0 8px 0 10px;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(-50%, -50%);
+    height: 16px;
+    left: 18px;
 }
 
 .notification-green {
-    background: #E9F8EB;
+    position: relative;
+    width: 298px;
+    padding: 10px;
+    padding-left: 34px;
+    background-color: #E9F8EB;
     border-radius: 4px;
     margin-bottom: 12px;
 }
 
-.notification-green p::before {
+.notification-green::before {
     content: url("../../img/green.svg");
-    margin: 0 8px 0 10px;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(-50%, -50%);
+    height: 16px;
+    padding-left: 18px;
 }
 
 .notification-yellow {
-    vertical-align: middle;
-    background: #FFF8E0;
+    position: relative;
+    width: 298px;
+    padding: 10px;
+    padding-left: 34px;
+    background-color: #FFF8E0;
     border-radius: 4px;
     margin-bottom: 12px;
 }
 
-.notification-yellow p::before {
+.notification-yellow::before {
     content: url("../../img/yellow.svg");
-    vertical-align: middle;
-    margin: 0 8px 0 10px;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(-50%, -50%);
+    height: 16px;
+    padding-left: 18px;
 }
 
 .notification-red {
-    background: #FDEAE4;
+    position: relative;
+    width: 298px;
+    padding: 10px;
+    padding-left: 34px;
+    background-color: #FDEAE4;
     border-radius: 4px;
     margin-bottom: 12px;
 }
 
-.notification-red p::before {
+.notification-red::before {
     content: url("../../img/red.svg");
-    margin: 0 8px 0 10px;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(-50%, -50%);
+    height: 16px;
+    padding-left: 18px;
 }
